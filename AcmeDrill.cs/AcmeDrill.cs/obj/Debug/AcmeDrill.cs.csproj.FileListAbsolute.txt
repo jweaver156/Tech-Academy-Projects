@@ -1,0 +1,6 @@
+C:\Users\jweav\OneDrive\Desktop\Projects\AcmeDrill.cs\AcmeDrill.cs\bin\Debug\AcmeDrill.cs.exe.config
+C:\Users\jweav\OneDrive\Desktop\Projects\AcmeDrill.cs\AcmeDrill.cs\bin\Debug\AcmeDrill.cs.exe
+C:\Users\jweav\OneDrive\Desktop\Projects\AcmeDrill.cs\AcmeDrill.cs\bin\Debug\AcmeDrill.cs.pdb
+C:\Users\jweav\OneDrive\Desktop\Projects\AcmeDrill.cs\AcmeDrill.cs\obj\Debug\AcmeDrill.cs.csproj.CoreCompileInputs.cache
+C:\Users\jweav\OneDrive\Desktop\Projects\AcmeDrill.cs\AcmeDrill.cs\obj\Debug\AcmeDrill.cs.exe
+C:\Users\jweav\OneDrive\Desktop\Projects\AcmeDrill.cs\AcmeDrill.cs\obj\Debug\AcmeDrill.cs.pdb
