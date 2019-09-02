@@ -1,26 +1,45 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-class Program
+namespace mathOperator
 {
-    static void Main()
+    class Program
     {
-        Console.WriteLine("The Tech Academy");
-        Console.WriteLine("Student Daily Report");
-        Console.WriteLine("What course are you on? ");
-        string course = Console.ReadLine();
-        Console.WriteLine("What page are you on? ");
-        int page = int.Parse(Console.ReadLine());
-        Console.WriteLine("Do you need help with anything? ");
-        string help = Console.ReadLine();
-        Console.WriteLine("Were there any positive experiences you'd like to share? Please be specific. ");
-        string posExperience = Console.ReadLine();
-        Console.WriteLine("Is there any other feeback you'd like to provide? Please be specific. ");
-        string feedback = Console.ReadLine();
-        Console.WriteLine("How many hours did you study? ");
-        int hours = int.Parse(Console.ReadLine());
-        Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly. Have a great day!");
-        Console.Read();
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Input a number");
+            string userNumberString = Console.ReadLine();
+            uint userNumber = uint.Parse(userNumberString);
+            Console.WriteLine(userNumber + " * 50 = " + (userNumber * 50));
 
+            Console.WriteLine("Input a number");
+            userNumberString = Console.ReadLine();
+            userNumber = uint.Parse(userNumberString);
+            Console.WriteLine(userNumber + " + 25 = " + (userNumber + 25));
+
+            Console.WriteLine("Input a number");
+            userNumberString = Console.ReadLine();
+            userNumber = uint.Parse(userNumberString);
+            Console.WriteLine(userNumber + " / 1.25 = " + (userNumber / 1.25));
+
+            Console.WriteLine("Input a number");
+            userNumberString = Console.ReadLine();
+            userNumber = uint.Parse(userNumberString);
+            Console.WriteLine(userNumber + " > 50 ? " + (userNumber > 50));
+
+
+            Console.WriteLine("Input a number");
+            userNumberString = Console.ReadLine();
+            userNumber = uint.Parse(userNumberString);
+            Console.WriteLine(userNumber + " % 7 = " + (userNumber % 7));
+
+            Console.ReadLine();     //Pause execution for user feedback
+        }
     }
 }
+        
+    
+
