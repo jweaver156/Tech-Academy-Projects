@@ -10,6 +10,8 @@ namespace BeautyState
     {
         static void Main(string[] args)
         {
+
+
             Console.WriteLine("Pop Quiz!");
             Console.WriteLine("Choose the most beautiful state in America to live in or visit:");
             string state = Console.ReadLine();
@@ -52,6 +54,26 @@ namespace BeautyState
                 }
             }
             while (!correctState);
+
+            Console.WriteLine("Type your favorite color:");
+            string favColor = Console.ReadLine();
+            bool bestColor = favColor == "Blue";
+
+            while (!bestColor)
+            {
+                switch (favColor)
+                {
+                    case "Green":
+                        Console.WriteLine("Green is the wrong answer.");
+                        Console.WriteLine("Give it another try.");
+                        favColor = Console.ReadLine();
+                        break;
+                    default:
+                        Console.WriteLine("Wrong answer!");
+                        Console.ReadLine();
+                        break;
+                }
+            }
 
             Console.ReadLine();
         }
