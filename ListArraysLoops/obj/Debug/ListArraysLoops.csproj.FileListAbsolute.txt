@@ -1,0 +1,7 @@
+C:\Users\jweav\OneDrive\Desktop\Projects\ListArraysLoops\ListArraysLoops\bin\Debug\ListArraysLoops.exe.config
+C:\Users\jweav\OneDrive\Desktop\Projects\ListArraysLoops\ListArraysLoops\bin\Debug\ListArraysLoops.exe
+C:\Users\jweav\OneDrive\Desktop\Projects\ListArraysLoops\ListArraysLoops\bin\Debug\ListArraysLoops.pdb
+C:\Users\jweav\OneDrive\Desktop\Projects\ListArraysLoops\ListArraysLoops\obj\Debug\ListArraysLoops.csprojAssemblyReference.cache
+C:\Users\jweav\OneDrive\Desktop\Projects\ListArraysLoops\ListArraysLoops\obj\Debug\ListArraysLoops.csproj.CoreCompileInputs.cache
+C:\Users\jweav\OneDrive\Desktop\Projects\ListArraysLoops\ListArraysLoops\obj\Debug\ListArraysLoops.exe
+C:\Users\jweav\OneDrive\Desktop\Projects\ListArraysLoops\ListArraysLoops\obj\Debug\ListArraysLoops.pdb
