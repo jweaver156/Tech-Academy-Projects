@@ -47,84 +47,60 @@ namespace ListArraysLoops
             }
             Console.ReadLine();
 
-
-            //6-8
-            List<string> seasons = new List<string>() { "Summer", "Fall", "Winter", "Spring" };
-            Console.WriteLine("What is your favorite season here in Portland?");
-            string favSeason = Console.ReadLine();
-            
-            foreach (string season in seasons)
+            //6-10
+            var strings = new List<string>
             {
-                if (favSeason == "Summer")
-                {
-                    Console.WriteLine(seasons.IndexOf(favSeason));
-                    Console.WriteLine("It's hard to beat the beautiful \nsummers here in Portland!");
-                    Console.ReadLine();
-                    break;
-                }
-                else if (favSeason == "Winter")
-                {
-                    Console.WriteLine(seasons.IndexOf(favSeason));
-                    Console.WriteLine("Relaxing rain...");
-                    Console.ReadLine();
-                    break;
-                }
-                else if (favSeason == "Fall")
-                {
-                    Console.WriteLine(seasons.IndexOf(favSeason));
-                    Console.WriteLine("The range of colors in nature can be quite a sight.");
-                    Console.ReadLine();
-                    break;
-                }
-                else if (favSeason == "Spring")
-                {
-                    Console.WriteLine(seasons.IndexOf(favSeason));
-                    Console.WriteLine("Almost river weather..");
-                    Console.ReadLine();
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Wrong text");
-                    Console.ReadLine();
-                    break;
-                }
-            }
-            Console.ReadLine();
+                "This",
+                "Is",
+                "A",
+                "Unique",
+                "List",
+                "Of",
+                "Strings"
+            };
 
-            //9,10
-            List<string> colors = new List<string>() { "Red", "Blue", "Green" };
-            Console.WriteLine("Choose your favorite color.");
-            string favColor = Console.ReadLine();
-            int indexBlue = colors.IndexOf("Blue");
-            foreach (string color in colors)
+            Console.WriteLine("Enter text to search the unique list of string for: ");
+            var input = Console.ReadLine();
+            var matchFound = false;
+            strings.ForEach(s =>
             {
-                if (favColor == "Blue")
+                if (s == input)
                 {
-                    Console.WriteLine(colors.IndexOf("Blue"));
-                    Console.ReadLine();
-                    break;
+                    matchFound = true; Console.WriteLine($"Match found at index: {strings.IndexOf(s)}");
                 }
-                else if (favColor == "Red")
-                {
-                    Console.WriteLine(colors.IndexOf("Red"));
-                    Console.ReadLine();
-                    break;
-                }
-                else if (favColor == "Green")
-                {
-                    Console.WriteLine(colors.IndexOf("Green"));
-                    Console.ReadLine();
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Text not in list");
-                    Console.ReadLine();
-                    break;
-                }
+            });
+            if (!matchFound)
+            {
+                Console.WriteLine("No match found");
             }
-            Console.ReadLine();
+            matchFound = false;
+            strings = new List<string>
+            {
+                "This",
+                "Is",
+                "Not",
+                "Not",
+                "Not",
+                "A",
+                "Unique",
+                "List",
+                "Of",
+                "Strings"
+            };
+
+            input = Console.ReadLine();
+            matchFound = false;
+            strings.ForEach(s =>
+            {
+                if (s == input)
+                {
+                    matchFound = true; Console.WriteLine($"Match found at index: {strings.IndexOf(s)}");
+                }
+            });
+            if (!matchFound)
+            {
+                Console.WriteLine("No match found");
+            }
 
             //11.
             int index = 0;
