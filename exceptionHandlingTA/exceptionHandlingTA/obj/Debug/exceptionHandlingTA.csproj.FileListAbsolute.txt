@@ -1,0 +1,6 @@
+C:\Users\jweav\source\repos\exceptionHandlingTA\exceptionHandlingTA\bin\Debug\exceptionHandlingTA.exe.config
+C:\Users\jweav\source\repos\exceptionHandlingTA\exceptionHandlingTA\bin\Debug\exceptionHandlingTA.exe
+C:\Users\jweav\source\repos\exceptionHandlingTA\exceptionHandlingTA\bin\Debug\exceptionHandlingTA.pdb
+C:\Users\jweav\source\repos\exceptionHandlingTA\exceptionHandlingTA\obj\Debug\exceptionHandlingTA.csproj.CoreCompileInputs.cache
+C:\Users\jweav\source\repos\exceptionHandlingTA\exceptionHandlingTA\obj\Debug\exceptionHandlingTA.exe
+C:\Users\jweav\source\repos\exceptionHandlingTA\exceptionHandlingTA\obj\Debug\exceptionHandlingTA.pdb
