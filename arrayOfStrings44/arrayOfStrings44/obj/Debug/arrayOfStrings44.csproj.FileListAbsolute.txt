@@ -1,7 +1,0 @@
-C:\Users\jweav\source\repos\arrayOfStrings44\arrayOfStrings44\obj\Debug\arrayOfStrings44.csprojAssemblyReference.cache
-C:\Users\jweav\source\repos\arrayOfStrings44\arrayOfStrings44\obj\Debug\arrayOfStrings44.csproj.CoreCompileInputs.cache
-C:\Users\jweav\source\repos\arrayOfStrings44\arrayOfStrings44\bin\Debug\arrayOfStrings44.exe.config
-C:\Users\jweav\source\repos\arrayOfStrings44\arrayOfStrings44\bin\Debug\arrayOfStrings44.exe
-C:\Users\jweav\source\repos\arrayOfStrings44\arrayOfStrings44\bin\Debug\arrayOfStrings44.pdb
-C:\Users\jweav\source\repos\arrayOfStrings44\arrayOfStrings44\obj\Debug\arrayOfStrings44.exe
-C:\Users\jweav\source\repos\arrayOfStrings44\arrayOfStrings44\obj\Debug\arrayOfStrings44.pdb
